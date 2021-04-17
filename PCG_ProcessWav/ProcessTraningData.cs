@@ -18,13 +18,14 @@ namespace PCG_ProcessWav
         /// </summary>
         /// <param name="PreccesTestData">Hvis true, er det mappen med test data der bruges, altså færre filer. Hvis false er det ALLE data der bruges</param>
         /// <param name="savePngAndTxt">Hvis true, gemmes spektogrammet som png og frekvenskurve som txt fil</param>
-        public void CreateTrainDataSet(bool PreccesTestData = true, bool savePngAndTxt = false)
+        public void CreateTrainDataSet(string _rootFolder,bool PreccesTestData = true, bool savePngAndTxt = false)
         {
 
             //TODO Her skal man indtaste den sti på den rootmappe hvor undermapperne skal mapperne lægges i!!!
-            //string rootFolder = DataAccess.GetROOTFolder(); //Denne finder mappen til projektet, og er der for dynamisk
-            string rootFolder = "C:\\Users\\memil\\Desktop\\ML_Data\\";
-            //string rootFolder = $"C:\\{Console.ReadLine()}";
+            //string rootFolder = DataAccess.GetROOTFolder();                   //Denne finder mappen til projektet, og er der for dynamisk
+            //string rootFolder = "C:\\Users\\memil\\Desktop\\ML_Data\\";         // Denne finder mappen ved Mads
+            //string rootFolder = "C:\\Users\\username\\Desktop\\ML_Data\\";    // Denne finder mappen ved Mads
+            string rootFolder = _rootFolder;              //Denne er blot default
 
 
             string folder1 = "Abnormal\\Fra 10 til 20 sekunder";
