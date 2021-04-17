@@ -9,4 +9,8 @@
     <PackageReference Include="Spectrogram" Version="1.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PCG_Feature5_Ml_TestEnvironmentML.Model\PCG_Feature5_MLML.Model.csproj" />
+  </ItemGroup>
+
 </Project>

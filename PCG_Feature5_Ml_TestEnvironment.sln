@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCG_Feature5_Ml_TestEnviron
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCG_ProcessWav", "PCG_ProcessWav\PCG_ProcessWav.csproj", "{D75127CA-5C2C-410F-9CAF-FBF141642642}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCG_Feature5_MLML.Model", "PCG_Feature5_Ml_TestEnvironmentML.Model\PCG_Feature5_MLML.Model.csproj", "{B576F9A2-3C80-4FF3-9145-E3D75C78AD74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D75127CA-5C2C-410F-9CAF-FBF141642642}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D75127CA-5C2C-410F-9CAF-FBF141642642}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D75127CA-5C2C-410F-9CAF-FBF141642642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B576F9A2-3C80-4FF3-9145-E3D75C78AD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B576F9A2-3C80-4FF3-9145-E3D75C78AD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B576F9A2-3C80-4FF3-9145-E3D75C78AD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B576F9A2-3C80-4FF3-9145-E3D75C78AD74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
