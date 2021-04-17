@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCG_Feature5_Ml_TestEnvironment", "PCG_Feature5_Ml_TestEnvironment\PCG_Feature5_Ml_TestEnvironment.csproj", "{5FABE062-ECF0-423B-97CD-AD03950C7D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCG_ProcessWav", "PCG_ProcessWav\PCG_ProcessWav.csproj", "{D75127CA-5C2C-410F-9CAF-FBF141642642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FABE062-ECF0-423B-97CD-AD03950C7D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FABE062-ECF0-423B-97CD-AD03950C7D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FABE062-ECF0-423B-97CD-AD03950C7D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FABE062-ECF0-423B-97CD-AD03950C7D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75127CA-5C2C-410F-9CAF-FBF141642642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75127CA-5C2C-410F-9CAF-FBF141642642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75127CA-5C2C-410F-9CAF-FBF141642642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75127CA-5C2C-410F-9CAF-FBF141642642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA4BDA61-B822-48AB-8863-8651998AD36B}
+	EndGlobalSection
+EndGlobal
